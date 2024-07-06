@@ -232,6 +232,26 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+.video-container {
+  max-width: 100%;
+  height: auto;
+}
+.embed-responsive-16by9 {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.embed-responsive-16by9 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
