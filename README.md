@@ -1,4 +1,5 @@
 # Starvision WebGL Deployment
+![Image](./assets/img/StarVision_2_logob&w.jpg)
 
 ## Capstone Project at Holberton School
 
